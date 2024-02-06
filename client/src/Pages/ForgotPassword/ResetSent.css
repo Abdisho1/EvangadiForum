@@ -1,0 +1,7 @@
+.all {
+    width: 100%;
+    background-image: url("../../Images/bg-svg-f.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: whitesmoke;
+ }

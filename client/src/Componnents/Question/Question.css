@@ -1,0 +1,24 @@
+.fa {
+    font-size: 33px;
+    font-weight: bolder;
+    color: #000;
+    cursor: pointer;
+}
+
+.fa:hover {
+    color: #da7000;
+}
+
+.all__div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.quest {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.user {
+    padding-left: 25px;
+}

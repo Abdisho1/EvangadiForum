@@ -1,0 +1,17 @@
+.answer {
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+.userName {
+    margin-left: 25px;
+}
+
+.img_and_username {
+    max-width: 130px;
+}
+
+.second__div {
+    display: flex;
+    justify-content: flex-start;
+}

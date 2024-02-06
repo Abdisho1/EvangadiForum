@@ -1,0 +1,143 @@
+.header {
+    width: 100%;
+    min-height: 13vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding-left: 110px;
+    border: 1px;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.4);
+}
+
+.innerContainer {
+    align-items: center;
+}
+
+.innerContainer2 {
+    width: 550px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+}
+
+img {
+    width: 250px;
+}
+
+.ic {
+    display: none;
+    font-size: 30px;
+    color: #FF8500;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.ic:focus {
+    outline: 0;
+}
+
+.innerContainer2>a {
+    color: #3B455A;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 20px;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+}
+
+.innerContainer2>a:hover {
+    color: #FF8500;
+}
+
+.btn_header {
+    width: 150px;
+    height: 41px;
+    background-color: #516CF0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 400px;
+    text-align: center;
+    border: 1px solid transparent;
+    font-size: 1rem;
+}
+
+.btn_header:hover {
+    background-color: #FF8500;
+}
+
+.btn_header:active {
+    border: 3px solid #516cf0;
+}
+
+@media (max-width: 540px) {
+    .innerContainer {
+        max-width: 540px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -70px;
+    }
+
+    .innerContainer2 {
+        display: none;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    .ic {
+        display: block;
+    }
+}
+
+@media (min-width: 541px) and (max-width: 767px) {
+    .innerContainer {
+        max-width: 767px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -70px;
+    }
+    
+    .innerContainer2 {
+        display: none;
+    }
+
+    img {
+        width: 200px;
+        margin-right: 80px;
+    }
+
+    .ic {
+        display: block;
+        margin-left: 180px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+    .innerContainer {
+        max-width: 960px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -40px;
+    }
+
+    img {
+        width: 250px;
+        margin-right: 200px;
+    }
+
+    .innerContainer2 {
+        display: none;
+    }
+
+    .ic {
+        display: block;
+        margin-left: 180px;
+    }
+}
